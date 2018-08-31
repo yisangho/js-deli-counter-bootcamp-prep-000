@@ -36,7 +36,7 @@ function currentLine(paramArray) {
     for( ; i < paramArray.length ; i++, j++ ) {
       msg += j + ". " + paramArray[i]
 
-      if (paramArray.length > 1 && paramArray.length != i) {
+      if (paramArray.length > 1 && i < paramArray.length) {
          msg += ", "
       }
     }
