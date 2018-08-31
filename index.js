@@ -34,12 +34,11 @@ function currentLine(paramArray) {
     msg = "The line is currently empty.";
   } else {
     for( ; i < paramArray.length ; i++, j++ ) {
-      msg += j + ". " + paramArray[i]
-
-      if (paramArray.length > 1 && i < paramArray.length) {
-         msg += ", "
-      }
+      msg += j + ". " + paramArray[i] +  ", ";
     }
+
+    msg = msg.substr(0, msg.length-2)
+    
   }
 
   return msg
