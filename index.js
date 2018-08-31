@@ -12,10 +12,7 @@ function takeANumber(katzDeliLine, param2) {
 
 function nowServing(paramArray) {
   var msg = "Currently serving ";
-  console.log("===================");
-  console.log(paramArray);
-  console.log(paramArray.lentgh);
-  console.log("===================");
+
   if ( paramArray[0] === undefined ) {
     msg = "There is nobody waiting to be served!"
   } else {
