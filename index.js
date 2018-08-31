@@ -38,7 +38,7 @@ function currentLine(paramArray) {
     }
 
     msg = msg.substr(0, msg.length-2)
-    
+
   }
 
   return msg
